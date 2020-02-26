@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+*{
+	margin:0;
+	padding: 0;
+}
+::-webkit-scrollbar  {
+    
+    border-radius:100px!important;
+      width: 5px;
+    }
+    
+    /*/ Track /*/
+    ::-webkit-scrollbar-track {
+    
+      background: #000; 
+    }
+     
+    /*/ Handle /*/
+    ::-webkit-scrollbar-thumb {
+    border-radius:100px!important;
+      background: #f15e31; 
+    }
+    
+     /*Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555; 
+    }
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto';
+}
+p{
+	font-family: 'Open Sans';
+}
+span{
+	font-family: 'Open Sans';
+}
+#navbar {
+	background:transparent!important;
+}
+.nav-link {
+	font-size: 18px!important;
+}
+.home-banner{
+	background:linear-gradient(rgb(0, 0, 0, 0.7), rgba(0, 0, 0,0.8)), url(../images/hero_2.jpg) no-repeat;
+	background-size:cover;
+	background-position: center;
+	height: 100vh;
+	position: relative;
+}
+.banner-text-area h1 {
+	font-size: 56px;
+	color:#fff;
+	font-weight: 800;
+	text-align: center;
+}
+.banner-text-area p{
+	font-size: 20px;
+	color:#fff;
+	text-align: center;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn-home-banner{
+	background-color:orange!important;
+	border:1px solid orange!important;
+	font-size: 20px!important;
+	color:#fff!important;
+	padding: 20px 60px 20px 60px;
+}
+.home-first-banner h2{
+	font-size: 46px;
+	color:#000;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+}
+.home-first-banner p {
+	font-size: 20px;
+	color:#000;
+	text-align: center;
+}
+.box-one{
+	background: url(../images/dishes_2.jpg) no-repeat;
+	background-size:cover;
+	height: 400px;
+}
+.box-two{
+	background: url(../images/dishes_3.jpg) no-repeat;
+	background-size:cover;
+	height: 400px;
+}
+.box-three{
+	background: url(../images/dishes_4.jpg) no-repeat;
+	background-size:cover;
+	height: 400px;
+}
+.forth-fold-text h2 {
+	font-size: 34px;
+	color:#000;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+}
+.forth-fold-text h3 {
+	font-size: 30px;
+	color:#000;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+}
+.forth-fold-text p {
+	font-size: 20px;
+	color:#000;
+	text-align: center;
+}
+.five-fold-banner {
+	background:linear-gradient(rgb(0, 0, 0, 0.7), rgba(0, 0, 0,0.8)), url(../images/about_2.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 20px;
+}
+.six-fold-text p {
+	font-size: 16px;
+	color:#fff;
+	text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background:linear-gradient(rgb(0, 0, 0, 0.7), rgba(0, 0, 0,0.8));
+  background-size: cover;
+  overflow: hidden;
+}
+
+.box-one:hover .overlay {
+  opacity: 1;
+}
+.box-two:hover .overlay {
+  opacity: 1;
+}
+.box-three:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-weight: bold; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.section-padding {
+	padding: 60px 0;
+}
+.bottom {
+    background-color: #000;
+}
+.bottom .copyright {
+    color: #e5e5e5;
+    font-weight: 600;
+}
+.copyright a {
+    color: orange;
+    margin-left: 3px;
+    padding-right: 3px;
+}
+.bottom p {
+    margin-bottom: 0;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.copyright p span {
+    color: #d1caca;
+}
+.bottom .copyright p, .bottom .copyright a:hover{
+    color: #fff;
+}
+@media only screen and (max-width: 780px){
+		#navbar{
+			background-color: #000!important;
+			z-index: 9999!important;
+		}
+	}
+
+	@media only screen and (max-width: 480px){
+		.box-one, .box-two, .box-three{
+			margin-bottom: 20px!important;
+		}
+	}
