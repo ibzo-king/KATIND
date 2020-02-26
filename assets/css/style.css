@@ -71,6 +71,13 @@ span{
 	color:#fff!important;
 	padding: 20px 60px 20px 60px;
 }
+.btn-home-banner:hover{
+	background:transparent;
+	border:1px solid orange!important;
+	font-size: 20px!important;
+	color:#fff!important;
+	padding: 20px 60px 20px 60px;
+}
 .home-first-banner h2{
 	font-size: 46px;
 	color:#000;
